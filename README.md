@@ -29,6 +29,8 @@ Define a new Python data class named `Record`. Give this new class a formalized 
 
 5. Add an attribute named `amount` of type `float`.
 
+![alt=""](Images/class_Record.JPG)
+
 Note that you’ll use this new `Record` class as the data type of your `record` attribute in the next section.
 
 ### Step 2: Modify the Existing Block Data Class to Store Record Data
@@ -39,6 +41,7 @@ Rename the `data` attribute in your `Block` class to `record`, and then set it t
 
 2. Set the data type of the `record` attribute to `Record`.
 
+![alt=""](Images/class_Block_record.JPG)
 ### Step 3: Add Relevant User Inputs to the Streamlit Interface
 
 Code additional input areas for the user interface of your Streamlit application. Create these input areas to capture the sender, receiver, and amount for each transaction that you’ll store in the `Block` record. To do so, complete the following steps:
