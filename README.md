@@ -56,6 +56,8 @@ Code additional input areas for the user interface of your Streamlit application
 
 5. As part of the “Add Block” button functionality, update `new_block` so that `Block` consists of an attribute named `record`, which is set equal to a `Record` that contains the `sender`, `receiver`, and `amount` values. The updated `Block` should also include the attributes for `creator_id` and `prev_hash`.
 
+![alt=""](Images/AddBlock_button.JPG)
+
 ### Step 4: Test the PyChain Ledger by Storing Records
 
 Test your complete `PyChain` ledger and user interface by running your Streamlit application and storing some mined blocks in your `PyChain` ledger. Then test the blockchain validation process by using your `PyChain` ledger. To do so, complete the following steps:
@@ -70,6 +72,7 @@ Test your complete `PyChain` ledger and user interface by running your Streamlit
 
 5. Test the blockchain validation process by using the web interface. Take a screenshot of the Streamlit application page, which should indicate the validity of the blockchain. Include the screenshot in the `README.md` file for your homework repository.
 
+![alt=""](Images/pyChain_result_difficulty2-2.JPG)
 ---
 ## Submission
 
